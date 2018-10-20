@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+printenv
+
+docker build --build-arg BUILD_VERSION=$BUILD_VERSION -t $IMAGE_NAME .
